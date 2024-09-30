@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class GenresConfig(AppConfig):
+class ActorsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'genres'
+    name = 'app_actors'

@@ -1,6 +1,6 @@
 from rest_framework import generics
-from genres.models import Genre
-from genres.serializers import GenreSerializer
+from app_genres.models import Genre
+from app_genres.serializers import GenreSerializer
 
 class GenreCreateListView(generics.ListCreateAPIView):
     queryset = Genre.objects.all()
